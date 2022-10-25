@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.maincontainer-1{
+    height:100vh;
+
+}
+.topcontainer-1{
+    width:100%;
+    height:28vh;
+    display: flex;
+
+   
+}
+.image1{
+
+    width:33.3%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+    align-content: flex-start;
+}
+.image1 img{
+    padding-top:40px ;
+    width:50%;
+    height:50%
+}
+.image2{
+    /* border: 2px solid black; */
+    width:33.3%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    align-items: flex-end; 
+    justify-content: flex-end; 
+    align-content: flex-end;
+}
+.image2 img{
+    width:100%;
+    height:100%
+}
+.middlepart-1{
+
+    width: 33.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.middlepart-1 h2{
+    width: 100%;
+    color:rgb(31, 3, 68);
+    text-align: center; 
+    font-size: 4rem;
+}
+.scrool{
+    margin-top:1%;
+    width:100%;
+    height:4%;
+    background-color: rgb(10, 10, 10);
+    color:rgb(235, 220, 6);
+    font-weight: bold;
+}
+.bottomcontainer-1{
+    display: flex;
+    margin-top: 2%;
+    width:100%;
+    height:60%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottomcontainer-1 .left{
+    width:50%;
+  
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.bottomcontainer-1 .leftbottom{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.h21tag{
+    margin-bottom: 10px;
+    padding:2%;
+    background-color:grey;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.h22tag{
+    cursor: pointer;
+    margin-top: 10px;
+    padding:2%;
+    background-color:grey;
+    border-radius: 25px;
+}
+.bottomcontainer-1 .right{
+    width:50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.bottomcontainer-1 img{
+    width: 100%;
+    height:100%;
+}
+.h1tag{
+    color: rgb(5, 107, 22);
+}
